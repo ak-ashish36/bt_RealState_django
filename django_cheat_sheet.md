@@ -68,3 +68,8 @@ python manage.py migrate
 ```
 python manage.py collectstatic
 ```
+
+### Install mysql driver
+```
+pip install mysqlclient
+```
