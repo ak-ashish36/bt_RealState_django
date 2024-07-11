@@ -64,7 +64,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-### Collect Static Files
+### Collect Static Files (Copies all files from STATICFILES_DIRS to STATIC_ROOT)
 ```
 python manage.py collectstatic
 ```
