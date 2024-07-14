@@ -152,14 +152,14 @@ MESSAGE_TAGS = {
 }
 
 #Email config
-import environ
-env = environ.Env()
-# reading .env file
-environ.Env.read_env()
+# import environ
+# env = environ.Env()
+# # reading .env file
+# environ.Env.read_env()
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_USE_TLS = True
-EMAIL_PORT = 587
-EMAIL_HOST_USER = env("PERSONAL_EMAIL"),
-EMAIL_HOST_PASSWORD = env("PERSONAL_EMAIL_PASSWORD")
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_USE_TLS = True
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = env("PERSONAL_EMAIL"),
+# EMAIL_HOST_PASSWORD = env("PERSONAL_EMAIL_PASSWORD")

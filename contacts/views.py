@@ -2,8 +2,8 @@ from django.shortcuts import render,redirect
 from django.contrib import messages
 from contacts.models import Contact
 from django.core.mail import send_mail
-import environ
-env = environ.Env()
+# import environ
+# env = environ.Env()
 
 def contact(request):
     if request.method == "POST" :
